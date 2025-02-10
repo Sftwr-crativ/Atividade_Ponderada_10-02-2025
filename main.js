@@ -13,7 +13,7 @@ for (var i = 0; i < notas.length; i++) {
 var media = somaDasNotas / notas.length;
 
 // If Else que determina se o aluno foi aprovado ou reprovado
-if (media >= 6) {
+if (media >= 7) {
     console.log("O aluno foi aprovado com a media de: " + media.toFixed(2) + ".")
 } else {
     console.log("O aluno foi reprovado com a media de: " + media.toFixed(2) + ".")
